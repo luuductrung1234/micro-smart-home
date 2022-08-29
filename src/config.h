@@ -9,7 +9,9 @@ const int WIFI_RX = 2;
 const int WIFI_TX = 3;
 const String CWMODE = "1"; // Wifi Mode - CWMODE 1=STATION, 2=APMODE, 3=BOTH
 const String CIPMUX = "0"; // Connection Mode - CWMODE 0=Single Connection, 1=Multiple Connections
-const String WIFI_SSID = "Tom Luu";
+const String WIFI_EOL = "\r\n";
+const int WIFI_EOL_LENGTH = String("\r\n").length();
+const String WIFI_SSID = "Trung";
 const String WIFI_PASSWORD = "Trung1997";
 
 // ----------- PIN -----------

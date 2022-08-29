@@ -16,15 +16,6 @@ void sliceLines(String data, char delimeter)
 	}
 }
 
-String escapeUnreadableCharacter(int decimalChar)
-{
-	Serial.println(decimalChar);
-	if ((decimalChar >= 0 && decimalChar <= 9) || decimalChar < 0 || (decimalChar > 10 && decimalChar <= 31))
-	{
-		return "";
-	}
-}
-
 String getResponseValue(String response, String keyWord)
 {
 	return response.substring(keyWord.length(), response.length() - 1);
